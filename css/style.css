@@ -100,10 +100,44 @@ body{
 #business article{
 	padding: 40px 0;
 }
-
-
-
-
+#news img{
+	float: left;
+	max-width: 100%;
+	height: auto;
+}
+#news h4{
+	padding: 0% 8% 0%;
+	font-size: 18px;
+	color: #5b6471;
+}
+#news h2{
+	padding: 0% 8% 0%;
+	font-size: 50px;
+	font-weight: 900;
+}
+#news p{
+	padding: 2% 30% 0% 8%;
+	font-size: 28px;
+	color: #5b6471;
+}
+#news a{
+	color: #1C222e;
+	font-size: 20px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 8%;
+}
+#news .latest{
+	padding: 10% 0%;
+}
+#news .bg{
+	background-image: url(../img/Office.png);
+	background-size: cover;
+	max-height: 1254px;
+}
 
 
 
