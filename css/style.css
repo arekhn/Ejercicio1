@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#top-header{
+	background-color: #ECF0F0;
+	padding: 5px 0;
+	text-align: right;
+}
+#top-header a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+#menu{
+	background-color: #fff;
+}
+
+#hero{
+	background-image: url("../img/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#hero h2{
+	font-size: 50px;
+	font-weight: 800;
+}
+
+#hero h3{
+	font-size: 22px;
+	color: #5b6471;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#hero a{
+	color: #1C222e;
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#hero a:hover{
+	color: #ff5a2d;
+	
+}
+
+#hero .overlay{
+	background: linear-gradient(to right
+	, rgba(255,255,255,0.90), transparent);
+	padding: 10% 0;
+}
+
+#business{
+	
+	text-align: center;
+}
+
+#business h2{
+	font-size: 25px;
+	font-weight: 800;
+}
+
+#business p{
+	color: #5b6471;
+	max-width: 60%;
+	margin: auto;
+	font-size: 16px;
+}
+
+#business .btn-naranja{
+	margin-top: 30px;
+	padding: 15px;
+}
+
+#business article:first-child{
+	border-right: 1px solid #bfc6cb;
+}
+
+#business article{
+	padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
