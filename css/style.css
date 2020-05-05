@@ -71,7 +71,6 @@ body{
 	, rgba(255,255,255,0.90), transparent);
 	padding: 10% 0;
 }
-
 #business{
 	
 	text-align: center;
@@ -174,4 +173,152 @@ body{
 #newYork {
 	margin-bottom: 80px;
 }
+#awards .col{
+	border-radius: 50%;
+	min-width: 200px;
+	min-height: 200px;
+	display: table-cell;
+	vertical-align: middle;
+	background: #ECF0F0;
+	text-align: center;
+	line-height: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#awards p{
+	padding-top: 45px;
+	font-size: 19px;
+	font-weight: 500;
+}
+#awards h3{
+	font-size: 19px;
+	font-weight: 800;
+	color: #ff5a2d;
+}
+#awards .col:nth-child(3){
+	background-color: #ff5a2d;
+}
+#awards h2{
+	color: white;
+	font-weight: 900;
+	padding-top: 50px;
+}
+#noteworthy{
+	background-color: #cfd4d4;
+	padding: 40px 0;
+}
 
+#noteworthy h2{
+	font-weight: 800;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#noteworthy .news{
+	background-color: #fff;
+	max-height: 200px;
+	padding: 20px;
+}
+
+
+#noteworthy .article-bg1{
+	background-image: url("../img/Best-places-to-work.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: auto;
+	
+}
+
+#noteworthy .article-bg2{
+	background-image: url("../img/AxiomPuck-9698.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: auto;
+}
+
+#noteworthy h3{
+	font-size: 20px;
+}
+
+#noteworthy h4{
+	font-size: 16px;
+	color: #5b6471;
+	font-weight: 100;
+}
+
+
+.link{
+	color: #1C222e;
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#info-footer{
+	background-color: #1c222e;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#info-footer img{
+	height: 40px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#info-footer .copy p{
+	font-size: 25px;
+	color: #fff;
+}
+
+#info-footer .copyright h4{
+	font-size: 20px;
+	color: #cfd4d4;
+}
+
+#info-footer  a{
+	color: rgb(128, 128, 128);
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+#info-footer a:hover{
+	color: rgb(255, 255, 255);
+}
+.redes i{
+  background-color: #303d58;
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all 0.3 ease-in-out;
+}
+.redes i:hover{
+  background-color: #ff5a2d;
+  transition: all 0.3 ease-in-out;
+}
+#formulario{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #ecf0f0;
+}
+
+#formulario a{
+	margin-top: 40px;
+}
